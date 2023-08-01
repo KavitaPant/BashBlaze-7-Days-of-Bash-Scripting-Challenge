@@ -1,25 +1,26 @@
 #!/bin/bash
 
-# First line of the script is the shebang which tells the system how to execute
+# shebang is use in first line of bash script. scripting helps in automating repititve tasks.
+# tasks 1: comments
+# comments are use to explain the notes but are not executed in the script (#) symbol is sign of comment.
+
 
 # Task  2: Echo
-echo "Scripting is fun with @TWS"
+# echo command is use to display the message on terminal.
+echo " Welcome to day1 of bashblaze challenge"
 
 # Task  3: Variables
-variable1="Hello"
-variable2="Bash"
+variable1="Kavita"
+variable2="Pant"
 
 # Task  4: Using Variables
-greeting="$variable1, $variable2!"
-echo "$greeting Welcome to the world of Bash scripting!"
+name="$variable1, $variable2!"
+echo "$name are you ready to take the bashblaze challenge?"
 
 # Task  5: Using Built-in Variables
-echo "My current bash path - $BASH"
-echo "Bash version I am using - $BASH_VERSION"
-echo "PID of bash I am running - $$"
-echo "My home directory - $HOME"
-echo "Where am I currently? - $PWD"
-echo "My hostname - $HOSTNAME"
+echo "Current user : $USER"
+echo "My current directory? : $PWD"
+echo "Home directory located at : $HOME"
 
 # Task  6: Wildcards
 echo "Files with .txt extension in the current directory:"
